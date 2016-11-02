@@ -134,7 +134,7 @@ multicast_receive_thread(void *arg)
 {
   (void)arg;
 
-  uint8_t wk_addr[16] = { 0xff, 0x02, 0, 0, 0, 0, 0,    0,
+  uint8_t wk_addr[16] = { 0xff, 0x03, 0, 0, 0, 0, 0,    0,
                           0,    0,    0, 0, 0, 0, 0x01, 0x58 };
   static uint8_t addr[16];
   uint8_t remote_addr[16] = { 0 };
